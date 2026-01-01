@@ -3,7 +3,7 @@
 ## Executive Summary
 This project develops a high-precision predictive framework for ride-sharing platforms (Uber/Lyft). By analyzing over 690,000 records, the project utilizes ensemble learning and **Industrial Engineering (IE)** optimization techniques to predict price fluctuations with an **$R^2$ of 0.96**.
 
-## 🛠 Technical Methodology
+## Technical Methodology
 
 ### 1. Multi-Stage Feature Selection
 To handle the high-dimensional nature of the dataset (50+ features), a rigorous selection pipeline was implemented:
@@ -18,7 +18,7 @@ Instead of a standard, resource-heavy Grid Search, this project employs a **Tagu
 **Optimization Objective ($J$):**
 $$\min \text{RMSE} = \sqrt{\frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2}$$
 
-## 📊 Performance Metrics
+## Performance Metrics
 The optimized **XGBoost** model demonstrated superior convergence and accuracy:
 
 | Metric | Value |
